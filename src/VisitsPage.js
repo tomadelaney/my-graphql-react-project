@@ -28,7 +28,7 @@ function VisitorsPage() {
     return (
         <div className="col">
             <h1>React Componant - Users</h1>
-            <p>These are my users, y&apos;all!</p>
+            <p>These are all of my users, y&apos;all!</p>
             {data.users.map(user => <div>{user.id} => {user.userPref.currentSemester} => {user.userPref.theme}</div>)}
         </div>
     );
